@@ -1,0 +1,316 @@
+/* SLIDER - SECTION */
+body{
+  padding: 0;
+  margin: 0;
+}
+.slider-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: #2a2a2a;
+  background-image: url("../img/bg-cam.png");
+  background-position: left;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+
+.slider-container {
+  position: relative;
+  width: 150%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.content-card {
+  display: flex;
+
+  width: 1200px;
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/1.png");
+
+  /* background: url(..); */
+}
+
+.slider-wrapper {
+  display: flex;
+  flex: 0 0 calc(33.33% - 10px);
+  justify-content: center;
+  align-items: center;
+  transform: translateX(0);
+  transition: transform 0.3s ease-in-out;
+  gap: 20px; /* Memberikan jarak antar gambar */
+  backdrop-filter: blur(10px);
+}
+
+.content-card.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+.content-card2.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card2 {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+.content-card3.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card3 {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+.content-card4.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card4 {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+.content-card5.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card5 {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+.content-card6.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card6 {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+.content-card7.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card7 {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+.content-card8.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card8 {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+.content-card9.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card9 {
+  filter: grayscale(0%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.content-card {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/1.png");
+  /* background: url(..); */
+}
+.content-card2 {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/2.png");
+  /* background: url(..); */
+}
+.content-card3 {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/3.png");
+  /* background: url(..); */
+}
+.content-card4 {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/4.jpg");
+  /* background: url(..); */
+}
+.content-card5 {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/5.jpg");
+  /* background: url(..); */
+}
+.content-card6 {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/2.png");
+  /* background: url(..); */
+}
+.content-card7 {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/3.png");
+  /* background: url(..); */
+}
+.content-card8 {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/1.png");
+  /* background: url(..); */
+}
+.content-card9 {
+  display: flex;
+  width: 100%;
+  /* width: 1200px; */
+  height: 550px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background-image: url("../assets/img-slider/5.jpg");
+  /* background: url(..); */
+}
+
+.slide1 {
+  flex: 0 0 calc(10% - 50px);
+  display: flex;
+  width: 1000px;
+  height: 114px;
+  padding: 10px;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+.btn-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: italic;
+  /* font-weight: 100; */
+  line-height: 94%; /* 22.56px */
+}
+.span {
+  color: #fff;
+  text-shadow: 0px 4px 45px rgba(0, 0, 0, 0.45);
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 94%; /* 22.56px */
+}
+.btn {
+  display: flex;
+  width: 110px;
+  padding: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  background: white;
+  border-radius: 30px;
+  font-weight: 500;
+  color: black;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dots-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Pusatkan dots */
+  margin-top: 50px; /* Tambahkan sedikit jarak dari gambar */
+  position: relative; /* Dots akan tetap di dalam container */
+}
+.dots-container .dot {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dots-container .dot.active {
+  background-color: gray;
+}
